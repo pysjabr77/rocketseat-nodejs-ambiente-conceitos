@@ -1,0 +1,28 @@
+Node.js
+
+Ambiente e conceitos
+
+  Instalando Node & NPM
+  Instalação do Yarn
+  Conceitos do Node.js
+  Conceitos de API Rest
+    Beneficios
+    Conteúdo da requisicao
+    HTTP codes
+      Codigo de tres digitos em Hexa
+        * 1xx: Informational
+        * 2xx: Success
+          - 200: Success
+          - 201: Created
+        * 3xx: Redirection
+          - 301: Moved permanently
+          - 302: Moved
+        * 4xx: Client Error
+          - 400: Bad request
+          - 401: Unauthorized
+          - 404: Not found
+        5xx: Server Error
+          - 500: Internal Server Error
+  Criando aplicacao
+    yarn init -y
+
