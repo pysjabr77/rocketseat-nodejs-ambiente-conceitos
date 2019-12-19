@@ -1,0 +1,156 @@
+_type: export
+__export_format: 4
+__export_date: 2019-12-19T19:01:46.898Z
+__export_source: insomnia.desktop.app:v7.0.1
+resources:
+  - _id: req_3b213406f1ec48189eb93b41571cd9fb
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Juarez"
+        }
+    created: 1576773740405
+    description: ""
+    headers:
+      - id: pair_e1a5e6ee1ac94464af749b34d0a61402
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1576773740405
+    method: POST
+    modified: 1576773799559
+    name: Criar Usuario
+    parameters: []
+    parentId: fld_fb0c5b6d48d446f58d5d7d088d005236
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/users
+    _type: request
+  - _id: fld_fb0c5b6d48d446f58d5d7d088d005236
+    created: 1576772542599
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1576772542599
+    modified: 1576772542599
+    name: Ambiente e Conceitos
+    parentId: wrk_5f4d5819489041d3921a894c73451080
+    _type: request_group
+  - _id: wrk_5f4d5819489041d3921a894c73451080
+    created: 1576772528187
+    description: ""
+    modified: 1576772528187
+    name: bootcamp
+    parentId: null
+    _type: workspace
+  - _id: req_04b8e92dd7384d69b3751e8b53974349
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Mendez"
+        }
+    created: 1576774046279
+    description: ""
+    headers:
+      - id: pair_e1a5e6ee1ac94464af749b34d0a61402
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1576773154212
+    method: PUT
+    modified: 1576774092349
+    name: Editar Usuario
+    parameters: []
+    parentId: fld_fb0c5b6d48d446f58d5d7d088d005236
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/users/1
+    _type: request
+  - _id: req_d019e1fd88ff4827b62f291fad1bc32a
+    authentication: {}
+    body: {}
+    created: 1576774242949
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1576772861115.5
+    method: DELETE
+    modified: 1576774275540
+    name: Deletar Usuario
+    parameters: []
+    parentId: fld_fb0c5b6d48d446f58d5d7d088d005236
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/users/1
+    _type: request
+  - _id: req_2e1f9549018449758daede3b47b809f2
+    authentication: {}
+    body: {}
+    created: 1576772568019
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1576772568019
+    method: GET
+    modified: 1576774557030
+    name: Listagem de Usuarios
+    parameters: []
+    parentId: fld_fb0c5b6d48d446f58d5d7d088d005236
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/users
+    _type: request
+  - _id: req_ba57cbe94b994d63a13092f849488a75
+    authentication: {}
+    body: {}
+    created: 1576773294489
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1573783559155
+    method: GET
+    modified: 1576773326555
+    name: Obter Usuario
+    parameters: []
+    parentId: fld_fb0c5b6d48d446f58d5d7d088d005236
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/users/1
+    _type: request
+  - _id: env_252cd8f74c1532a9d8cb59f857f4aadb76c869b9
+    color: null
+    created: 1576772528428
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1576772528428
+    modified: 1576772528428
+    name: Base Environment
+    parentId: wrk_5f4d5819489041d3921a894c73451080
+    _type: environment
+  - _id: jar_252cd8f74c1532a9d8cb59f857f4aadb76c869b9
+    cookies: []
+    created: 1576772528434
+    modified: 1576772528434
+    name: Default Jar
+    parentId: wrk_5f4d5819489041d3921a894c73451080
+    _type: cookie_jar
