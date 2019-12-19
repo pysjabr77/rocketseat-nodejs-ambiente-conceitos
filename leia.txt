@@ -25,4 +25,9 @@ Ambiente e conceitos
           - 500: Internal Server Error
   Criando aplicacao
     yarn init -y
-
+  Query & Route params
+  Utilizando Insomnia
+  Utilizando Nodemon
+  CRUD
+  Middleware
+  
